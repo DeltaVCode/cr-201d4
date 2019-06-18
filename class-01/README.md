@@ -6,18 +6,18 @@
 ## Today's Schedule
 This first day of class is an all-day session with the students that is mostly lecture. Note: this is not our typical class schedule. 
 
-- [Kickoff!](#kickoff) *[30 minutes]*
-- [Academic Overview](#academic) *[60 minutes]*
-- [Unix & Git](#ug) *[60 minutes]*
-- [Go over the assigned readings](#readings) *[30 minutes]*
+- [Kickoff!](#kickoff) **
+- [Academic Overview](#academic) **
+- [Unix & Git](#ug) **
+- [Go over the assigned readings](#readings) **
 
 *Lunch Break*
 
-- [Continuing going over the assigned readings](#readings) *[30-60 minutes]*
+- [Continuing going over the assigned readings](#readings) **
 - Discuss Career Coaching assignments
-- [Set up a JavaScript linter](#linter) *[15 minutes after Unix/Git is finished]*
-- [Verify Student Toolbelts](#toolbelt) *[30-45 minutes]*
-- [Code demo to prep for lab](#code) *[60 minutes]*
+- [Set up a JavaScript linter](#linter) **
+- [Verify Student Tool-belts](#toolbelt) **
+- [Code demo to prep for lab](#code) **
 - [LAB](#lab)
   - Write code as outlined in the lab assignment
 
@@ -36,7 +36,7 @@ As a result of completing Lecture 1 of Code 201, students will be able to:
 - HTML Chapter 8: "Extra Markup"
 - HTML Chapter 17: "HTML5 Layout"
 - HTML Chapter 18: "Process & Design"
-- JS Chatper 1: "The ABC of Programming"
+- JS Chapter 1: "The ABC of Programming"
 
 <a id="kickoff"></a>
 
@@ -56,14 +56,14 @@ The instructor will give an overview of the topics to be covered in this course 
 
 <a id="toolbelt"></a>
 
-## Verify Student Toolbelts
+## Verify Student Tool-belts
 
 By doing a few quick tests and exercises, as detailed below, we will ensure that you have functionality of all of the core pieces of your development environment:
 - VSCode: type `code` in the command line to verify that it opens properly. Command line tools may need to be installed
 - VSCode packages: ensure that the linter is enabled
 - Chrome: how to open Chrome from the console, and how to open the developer tools in Chrome
 - Git: enter `which git` in the command line to verify installation
-- Directory structure: together we will set up a directory at ~/codefellows/201/ in which you will store your classwork. We will go over directory structure in general and compare it to GUI
+- Directory structure: together we will set up a directory at `~/deltav/201/` in which you will store your classwork. We will go over directory structure in general and compare it to GUI
 
 
 [-top-](#top)
@@ -131,7 +131,7 @@ In the lower left-hand corner of VSCode, click on the gear icon and select "Sett
   - Wireframes
 - Visual hierarchy, grouping, navigation
 
-**JS Chatper 1: "The ABC of Programming"**
+**JS Chapter 1: "The ABC of Programming"**
 
 - p.16 	Designing a script
 - p.28 	Objects & properties
