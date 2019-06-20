@@ -9,6 +9,7 @@
 - [Topics from CSS readings](#css)  
 - [Topics from JS readings](#js) 
 - [Review lab assignment, code demo, `git clone`](#code)  
+- ## Headshots on July 2 at 1:00pm with Jessalyn.
 
 ### Announcements:
  - Quizzes:
