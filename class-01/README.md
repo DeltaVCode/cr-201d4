@@ -10,6 +10,8 @@ This first day of class is an all-day session with the students that is mostly l
 - [Academic Overview](#academic) **
 - [Unix & Git](#ug) **
 - [Go over the assigned readings](#readings) **
+- # Headshots on July 2 at 1:00pm with Jessalyn.
+
 
 *Lunch Break*
 
