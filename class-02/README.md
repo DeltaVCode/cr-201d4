@@ -4,11 +4,11 @@
 
 ## Today's Schedule
 - Announcements
-- Code review *[30 minutes]*
-- [Topics from HTML readings](#html) *[15 minutes]*
-- [Topics from CSS readings](#css) *[30 minutes]*
-- [Topics from JS readings](#js) *[45 minutes]*
-- [Review lab assignment, code demo, `git clone`](#code) *[45 minutes]*
+- Code review  
+- [Topics from HTML readings](#html)  
+- [Topics from CSS readings](#css)  
+- [Topics from JS readings](#js) 
+- [Review lab assignment, code demo, `git clone`](#code)  
 
 ### Announcements:
  - Quizzes:
