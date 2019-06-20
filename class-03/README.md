@@ -21,8 +21,9 @@ As a result of completing Lecture 3 of Code 201, students will:
 ## Readings
 
 - HTML Chapter 3: "Lists"
-- JS Chapter 4: "Decisions & Loops"
 - HTML Chapter 13: "Boxes" (CSS)
+- JS Chapter 4: "Decisions & Loops"
+
 
 We're not going to go over the chapter on HTML lists in much detail in class, but feel free to ask questions. Here's what's in that chapter:
 
@@ -38,6 +39,21 @@ We're not going to go over the chapter on HTML lists in much detail in class, bu
 ## Code Review
 
 Let's take about 30 minutes to do our code review session. We're going to look at someone's code, have students read through it and explain it, take questions, and so on. Code review is an important part of professional development processes and also a key part of our learning environment in this course.
+
+[-top-](#top)
+
+<a id="box"></a>
+## CSS Box Model
+
+**HTML Chapter 13: "Boxes" (CSS)**
+
+- p.303: Box width, height, overflow
+- p.307: Border, margin, & padding
+- p.308: Border width, style, & color
+- p.315: Centering content
+- p.317: Changing inline/block
+- p.318: Visibility
+- p.321: Additional border topics (border images, box shadow, border radius)
 
 [-top-](#top)
 
@@ -60,19 +76,3 @@ Let's take about 30 minutes to do our code review session. We're going to look a
 - p.177 	Using ‘do...while’ loops
 
 [-top-](#top)
-
-<a id="box"></a>
-## CSS Box Model
-
-**HTML Chapter 13: "Boxes" (CSS)**
-
-- p.303: Box width, height, overflow
-- p.307: Border, margin, & padding
-- p.308: Border width, style, & color
-- p.315: Centering content
-- p.317: Changing inline/block
-- p.318: Visibility
-- p.321: Additional border topics (border images, box shadow, border radius)
-
-[-top-](#top)
-
