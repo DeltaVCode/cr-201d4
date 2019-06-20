@@ -18,6 +18,11 @@ As a result of completing Lecture 3 of Code 201, students will:
 - Demonstrate understanding of and explain what HTML element attributes are and how to use them, as measured by successful completion of the daily code assignment and a quiz administered in Canvas
 - Demonstrate understanding of and illustrate the CSS box model, as measured by successful completion of the daily code assignment and a quiz administered in Canvas
 
+<a id="codereview"></a>
+
+## Code Review
+
+Let's take about 30 minutes to do our code review session. We're going to look at someone's code, have students read through it and explain it, take questions, and so on. Code review is an important part of professional development processes and also a key part of our learning environment in this course.
 ## Readings
 
 - HTML Chapter 3: "Lists"
@@ -34,11 +39,7 @@ We're not going to go over the chapter on HTML lists in much detail in class, bu
 - p.67: Definition lists
 - p.68: Nested lists
 
-<a id="codereview"></a>
 
-## Code Review
-
-Let's take about 30 minutes to do our code review session. We're going to look at someone's code, have students read through it and explain it, take questions, and so on. Code review is an important part of professional development processes and also a key part of our learning environment in this course.
 
 [-top-](#top)
 
