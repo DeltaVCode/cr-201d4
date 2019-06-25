@@ -7,8 +7,9 @@
 This first day of class is an all-day session with the students that is mostly lecture. Note: this is not our typical class schedule. 
 
 - [Kickoff!](#kickoff) **
+- [Slack demo](#kickoff) **
 - [Academic Overview](#academic) **
-- [Unix & Git](#ug) **
+- [Unix & Git Good Guide](#ug) **
 - [Go over the assigned readings](#readings) **
 - # Headshots on July 2 at 1:00pm with Jessalyn.
 
@@ -44,7 +45,7 @@ As a result of completing Lecture 1 of Code 201, students will be able to:
 
 ## Kickoff!
 
-This is the welcome and introduction to Code Fellows. Students will meet the campus manager and learn about campus operations and policies.
+This is the welcome and introduction to DeltaV Code. Aaron Horn will introduce students to our program's expectations and students will take a building tour with Donna.  Donna will share our building history, operations, and policies.
 
 [-top-](#top)
 
