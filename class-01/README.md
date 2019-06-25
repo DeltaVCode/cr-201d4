@@ -75,7 +75,7 @@ By doing a few quick tests and exercises, as detailed below, we will ensure that
 
 ## Unix & Git
 
-Introduction to core the concepts of file management from the command line and the fundamentals of Git and GitHub.
+Introduction to core concepts of file management from the command line and the fundamentals of Git and GitHub.
 
 [-top-](#top)
 
