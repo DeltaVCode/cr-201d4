@@ -53,7 +53,7 @@ This is the welcome and introduction to DeltaV Code. Aaron Horn will introduce s
 
 ## Academic Overview
 
-The instructor will give an overview of the topics to be covered in this course and how those topics fit into the overall academic program at Code Fellows.
+The instructor will give an overview of the topics to be covered in this course and how those topics fit into the overall academic program at DeltaV Code School.
 
 [-top-](#top)
 
