@@ -1,0 +1,46 @@
+<!DOCTYPE html >
+<html>
+
+  <head>
+    <title>Lab 1</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Lab 1 Demo</h1>
+    </header>
+
+    <p>I am about to ask you some questions:</p>
+
+    <ul>
+      <li>One in Spanish?</li>
+      <li>Two in Spanish?</li>
+      <li>Three in Spanish?</li>
+    </ul>
+
+    <script>
+      console.log('Hello, DeltaV');
+
+      do {
+
+        var firstAnswer = prompt('What is "one" in Spanish?');
+
+        if (firstAnswer !== 'uno') {
+          alert('WRONG');
+        }
+
+      } while(firstAnswer !== 'uno');
+      alert('You said "one" in Spanish is "' + firstAnswer + '". That\'s correct!');
+
+      // Returns string, or null if canceled
+      var secondAnswer = prompt('What is "two" in Spanish?');
+      alert('You think counting in Spanish sounds like ' + firstAnswer + ', ' + secondAnswer);
+
+      // Returns true or false
+      var thirdAnswer = confirm('Should we continue?');
+      alert(thirdAnswer);
+
+    </script>
+  </body>
+
+</html>
