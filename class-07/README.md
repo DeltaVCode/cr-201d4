@@ -1,6 +1,9 @@
 <a id="top"></a>
 # Class 7: Object-Oriented Programming with Constructor Functions; HTML Tables
 
+## Daily 'Motivation' video 
+<a href= "https://www.youtube.com/watch?v=26U_seo0a1g&list=PLudyweVVEYPCV5YhRkUZgFAJwLZWWMTNo&index=18&t=0s">Your Daily Motivational video</a>
+
 ### Overview
 
 This is the first of the two toughest days in the course. Introducing inheritance with constructor functions, plus adding another dimension to dynamic DOM rendering by creating a table instead of lists from stored array data, is often a bigger bite than most students can completely chew on one day, especially if there were any issues lingering from Class 6.

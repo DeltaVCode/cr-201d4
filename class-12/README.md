@@ -1,7 +1,8 @@
 # Class 12: Adding Charts to the Vote Tracker App
 
 <a id="top"></a>
-## Lecture 12
+## Daily 'Motivation' video 
+<a href= "https://www.youtube.com/watch?v=26U_seo0a1g&list=PLudyweVVEYPCV5YhRkUZgFAJwLZWWMTNo&index=18&t=0s">Your Daily Motivational video</a>
 
 ## Today's Schedule
 - Announcements
