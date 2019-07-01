@@ -2,6 +2,9 @@
 
 <a id="top"></a>
 
+## Daily 'Motivation' video 
+<a href= "https://www.youtube.com/watch?v=26U_seo0a1g&list=PLudyweVVEYPCV5YhRkUZgFAJwLZWWMTNo&index=18&t=0s">Your Daily Motivational video</a>
+
 ## Today's Schedule
 - Announcements
 - Code review  

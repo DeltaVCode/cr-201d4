@@ -1,14 +1,19 @@
 # Class 1: Introduction to the Tools and Fundamentals of Development
 
 <a id="top"></a>
+
+## Daily 'Motivation' video 
+<a href= "https://www.youtube.com/watch?v=26U_seo0a1g&list=PLudyweVVEYPCV5YhRkUZgFAJwLZWWMTNo&index=18&t=0s">Your Daily Motivational video</a>
+
 ## Lecture 1
 
 ## Today's Schedule
 This first day of class is an all-day session with the students that is mostly lecture. Note: this is not our typical class schedule. 
 
 - [Kickoff!](#kickoff) **
+- [Slack demo](#kickoff) **
 - [Academic Overview](#academic) **
-- [Unix & Git](#ug) **
+- [Unix & Git Good Guide](#ug) **
 - [Go over the assigned readings](#readings) **
 - # Headshots on July 2 at 1:00pm with Jessalyn.
 
@@ -44,7 +49,7 @@ As a result of completing Lecture 1 of Code 201, students will be able to:
 
 ## Kickoff!
 
-This is the welcome and introduction to Code Fellows. Students will meet the campus manager and learn about campus operations and policies.
+This is the welcome and introduction to DeltaV Code. Aaron Horn will introduce students to our program's expectations and students will take a building tour with Donna.  Donna will share our building history, operations, and policies.
 
 [-top-](#top)
 
@@ -52,7 +57,7 @@ This is the welcome and introduction to Code Fellows. Students will meet the cam
 
 ## Academic Overview
 
-The instructor will give an overview of the topics to be covered in this course and how those topics fit into the overall academic program at Code Fellows.
+The instructor will give an overview of the topics to be covered in this course and how those topics fit into the overall academic program at DeltaV Code School.
 
 [-top-](#top)
 
@@ -74,7 +79,7 @@ By doing a few quick tests and exercises, as detailed below, we will ensure that
 
 ## Unix & Git
 
-Introduction to core the concepts of file management from the command line and the fundamentals of Git and GitHub.
+Introduction to core concepts of file management from the command line and the fundamentals of Git and GitHub.
 
 [-top-](#top)
 

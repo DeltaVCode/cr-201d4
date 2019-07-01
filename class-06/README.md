@@ -1,12 +1,12 @@
 # Class 6: The DOM, Domain Modeling, and Introduction to Objects
 
 <a id="top"></a>
-## Lecture 6
+## Daily 'Motivation' video 
+<a href= "https://www.youtube.com/watch?v=26U_seo0a1g&list=PLudyweVVEYPCV5YhRkUZgFAJwLZWWMTNo&index=18&t=0s">Your Daily Motivational video</a>
 
 ## Today's Schedule
 - Announcements
-  - Review feedback from week 1 surveys
-- Go over student surveys 
+- Review feedback from week 1 surveys
 - Discuss upcoming Career Coaching assignments
 - Code Review 
 - [Go over the assigned readings](#readings) 
