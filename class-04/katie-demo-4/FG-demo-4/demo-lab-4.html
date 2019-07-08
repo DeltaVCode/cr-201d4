@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> lab 4 demo</title>
+</head>  
+<body> 
+  <p><h1>OPEN CONSOLE TO SEE THE MAGIC</h1>
+  </p>
+  
+
+<script >
+
+
+// Q&A
+var userName = 'Santa Clause'; //default
+var correctAnswers = 0;//default value
+var questionNumber = 0; //default value
+
+//This function has four params so how many arguments do we expect to pass in a function call?
+function askQuestion(questionText, correctWord, correctMessage, incorrectMessage) {
+  questionNumber++;
+
+  var correctLetter = correctWord[0];  //new variable to hold the correctWord string remeber strings have array properties
+
+  var answer = prompt(questionText).toLowerCase(); // new variable that usings the first param and sanitizes the return value. 
+
+  if (answer === correctWord || answer === correctLetter) {
+    console.log('That\'s right, ' + userName + '! ' + correctMessage);
+    correctAnswers++;
+  // } else {
+    console.log(incorrectMessage + '  Were you listening,' + userName + ' ? :(');
+  }
+
+  console.log('User\'s response is "' + answer + '" to question ' + questionNumber + '.');
+}
+
+//question one
+var questionText = 'Is Keith a swing dancer?';
+var correctWord = 'yes'; //default value
+var correctMessage = 'Keith\'s been doing Lindy Hop and other Jazz dances since his college years!';
+var incorrectMessage = 'Wrong.';
+
+// askQuestion(questionText, correctWord, correctMessage, incorrectMessage);
+askQuestion('Is it lunch time?', 'yes', 'Yum!', 'Seriously, go eat.');
+
+
+
+function askQuestion2() {
+
+  var question2 = prompt('Does Katie love giving tours of the night sky?').toLowerCase();
+  
+  if (question2 === 'yes' || question2 === 'y') {
+    console.log('That\'s correct, ' + userName + '! !');
+    correctAnswers++;
+  } else {
+    console.log('That is a big negatory,' + userName + '. Katie loves giving star tours.');
+  };
+  
+  console.log('User\'s response is "' + question2 + '" to question 2.');
+
+}
+
+askQuestion2();
+
+//How to access an array of two arrays
+var myArray = ['a', 'b', 'c'];
+var second = myArray[1]; // second element in the array
+console.log(second);
+
+var questions = [
+  /*
+  ['what?', 'why?', 'how?'],
+  ['yes', 'no', 'yes']
+  */
+  
+  ['what?', 'yes'], //[0][0]=what
+  ['why?', 'no'],//1
+];
+console.log(questions[0][0], 'what')
+for (var i = 0; i < questions.length; i++) {
+  console.log(questions[i][0] + ' ' + questions[i][1]);
+}
+
+
+
+
+</script>
+ </body>
+ </html>

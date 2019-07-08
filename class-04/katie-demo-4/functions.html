@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script src= app-c.js></script>
+    <script>
+
+      //FUNCTIONS========================================================
+//Functions can be written to either run as soon as the program loads or run when the interpreter finally gets to the spot where the statement is located. 
+
+/*The latter is called a function expression because the function definition is stored in a variable. 
+The former is called a function declaration. Variables and function declarations are looked for first by the interpreter before going through each section of the script. However this rule is a bit IFFE, pun intended. LOL! 
+This reference is funny, just you wait. */
+
+/*FXN EXPRESSIONS create a variable and assign a function definition. The function can be named but doing so seems over kill since it is assigned to  a variable name. However, in class 8 we will learn how helpful it is to name the fxn inside a fxn expression./* 
+    
+var makeNoise = function() {
+  console.log("Pling!");
+};
+makeNoise(); // → Pling!
+
+/*A return keyword without an expression after it will cause the function to return undefined. 
+Functions that don’t have a return statement at all, such as makeNoise, similarly return undefined.*/
+
+
+/* functions can be used to get input from the computer or get input from the user.  We set input placeholders called parameters inside the functions parentheses. */
+
+function getSum(num1, num2, num3){
+  return num1 + num2 + num3;
+}
+
+//When we call the function getSum we will input three numeric values to add together. 
+//BUT wait what happens if we pass the function an extra argument?  
+//give the function four numeric values.
+//console.log(getSum(   ,   ,   ,   ));
+
+
+//What happens if we only pass two parameters/arguments so that it is missing the third one.   
+//Let's do that and see if the computer 'Blows up!'
+//console.log(getSum(   ,    ));
+
+
+/* We devs know that functions will always only return one value, so as all devs do we hack the system in order to get what we want. 
+The goal is to have the function return multiple values and we know that functions only return one value so we have to return a data type that can hold multiple values. Which data type can hold an ordered list of same type values? ARRAYS!!!
+*/
+
+function getSize( width, height, depth){
+  var area = width * height;
+  var volume = width * height * depth;
+  var sizes = [area, volume];
+  return sizes;
+}
+//Lets get the whole array
+console.log(getSize(34, 45, 87));
+
+//Lets get only the area output 
+//To get the area's calculated output we use sizes' index, area is at index 0 and volume is at index 1. 
+var getArea = getSize(16, 32, 86)[0]
+var getVolume = getSize(43, 32, 97)[1]
+console.log(getVolume, getArea)
+
+
+//WHATS THE IFFE=======
+/* Function expressions can be executed once as the interpreter comes accross them.
+These immediate invocations are called IFFE. 
+Let's say you want a variable to store a particular value but the catch is that this particular value has to be calcuted but it only has to be calculated once. So, since your function does not need to stay in memory but for the time it takes to calculated the needed value you can just create an iffe instead. The iffe will run once then disappear never to be called or used again for the rest of the script.  
+*/
+
+var area = (function(){
+  var width = 3;
+  var height = 43;
+  return width * height;
+} ());
+
+
+
+const power = function(base, exponent) {
+  var result = 1;
+  for (let count = 0; count < exponent; count++) {
+    result *= base;
+  }
+  return result;
+};
+
+console.log(power(2, 10)); // → 1024
+
+
+
+
+
+    </script>
+  </body>
+</html>

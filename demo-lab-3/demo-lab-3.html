@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> function demo</title>
+</head>  
+<body> 
+  <p><h1>OPEN CONSOLE TO SEE THE MAGIC</h1>
+  </p>
+  <p>This walk-through-lab-3</p>
+<p>- Expect that you will probably need both 'for' and 'while' structures for your sixth and seventh questions. But not necessarily.</p>
+<script>
+  var score = 5;
+var correct = 5;
+var answer = prompt('How many pokemon did Laura catch this weekend?');
+
+//Change the value from a string datatype to a number datatype
+
+sanitizedAnswer = parseInt(answer);
+console.log('Yasssssss Laura caught ' + sanitizedAnswer);
+
+//Do this for checking regardless of case
+if(sanitizedAnswer === 5){
+  console.log('Yasssss Laura caught  ' + sanitizedAnswer);
+ score = score + 10;
+ //score += 10; short version 
+} 
+else if (sanitizedAnswer > 5) {
+  console.log('Laura didn\'t catcch that many!');
+  score = score -2;
+  console.log('Wrong!! Minus 2 pts'  + score);
+}
+else if (sanitizedAnswer < 5) {
+  console.log('Laura caught more than that !');
+  score = score -2;
+  console.log('Wrong!! Minus 2 pts'  + score);
+}
+else {console.log ('try again refresh page')};
+</script>
+</body>
+</html>

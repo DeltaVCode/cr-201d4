@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student demo lab 4</title>
+  </head>
+
+<p>This demo takes yes/no questions and creates a function to process the answers and prompt()s. You can use this as a guide for your own About Me project. </p>
+
+<body>
+
+<script>
+  var correctAnswers = 0;
+  var questionNumber = 0; 
+            var userName = prompt("What is your name?");
+            while (!userName) {
+                userName = prompt("Enter your name!");
+            }
+//I'm going to create a generic function that can be reused to any question. 
+      function askQuestion(questionText,correctWord, correctMsg, incorrectMsg ){
+        questionNumber = questionNumber + 1;
+         var correctLetter = correctWord[0];
+         var answer = prompt(questionText).toLowerCase();
+           if (answer === correctWord || answer ===correctLetter) {
+                console.log('Cool, ' + userName + '! ' + correctMsg);
+            correctAnswers = correctAnswers + 1
+           } else {
+             console.log(incorrectMsg + userName);
+           }
+            console.log('User\'s response is ' + answer + ' to question ' + questionNumber );
+      }
+            //question one
+            // var questionText = "Do you live in Cedar Rapids?";
+            // var correctWord= 'yes';
+            // var correctMsg = "Awesome, I do too!";
+            // var incorrectMsg = 'Sorry, wrong answer';
+           
+            
+             var q1 = askQuestion("Did I go to college?", "yes","Awesome, I did too!", 'Wrong, ' );
+             var q2 = askQuestion('Do you live in Cedar Rapids?', 'yes', 'I do too, maybe we\'re neighbors.', 'Wrong, ');
+             console.log(q1, q2);
+
+
+        </script>
+        
+        </body>
+        </html>
