@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>
+      Demo secure links
+    </title>
+    
+  </head>
+
+  <body>
+    <h1> Use strict, iffy, ++X</h1>
+    <h2>Open console to see the magic</h2>
+    <a target="_blank"
+       href="https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it">What does use-strict do in JS </a>
+       
+    <script>
+    
+    /* use strict at the top of your page to catch coding bloopers 
+    use strict inside your functions to treat the function strictly even though stuff outside of it may not be set to use strict. 
+    It is a common pattern to wrap your code in one function that will immediatly call that function. This is called immediatly invoked function expression pronouced 'iffy'
+    You do this to protect your code from other coders who may be using the same variables somewhere in their js files. The wrapping allows you to declare all your function locally. 
+    For example check out the example in Stackoverflow wh
+    */
+    
+    //What is with ++x  and x++
+    var x = 0;
+    while (x < 7){
+      console.log(x++);
+    }
+
+    var n = 0;
+    while(n < 7){
+      console.log(++n);
+    }
+   
+   var count = 0;
+   function test(value){
+     console.log((++count) + ":  " + value);
+     return value;
+   }
+test(1);
+test(2);
+test(3);
+
+// What is with short circuits
+console.log('res = ' + (test('a') && test('b') && test(false) && test('d')));
+console.log('res = ' + (test('a') & test('b') & test(false) & test('d')));
+
+
+
+    </script>
+  </body>
+
+</html>

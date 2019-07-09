@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>
+      Demo secure links
+    </title>
+    <style>
+      [target] {
+        border: 2px solid;
+      }
+
+      a[target="_blank"] {
+        font-size: 2.8em;
+      }
+
+/*  Open your dev tools and in the Element tab find ::after
+    This bit of code just means you put something in the object model that will go after the element.   
+*/
+      a[href$=".pdf"]:after {
+        content: " ( TO READ: NEED LEVEL FIVE SECURITY CLEARANCE  )";
+      }
+
+      a[href$=".swf"]:after {
+        content: " ( Flash  ) ";
+      }
+
+      /* Open your dev tools and go to the Elements tab to find   ::before  
+      This bit of code just means you put something in the object model that will go before the element.  
+      */
+
+      a[href^="https"]:before {
+        content: " Secure! ";
+        display: inline-block;
+        border: 5px hotpink dashed;
+        margin-right: 20px;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <h1> LINKS</h1>
+    <h2>Put a border around important info </h2>
+    <a target="_blank"
+       href="https://www.cedar-astronomers.org/">Top Secret Link- Nah! JK </a>
+       
+    <section>
+      <a href="katies-top-secret-government-contract.pdf">Contract</a>
+    </section>
+    </br>
+    <section>
+      <a href="katies-top-secret-government-contract.swf">Movie</a>
+    </section>
+
+
+
+    </section>
+  </body>
+
+</html>
