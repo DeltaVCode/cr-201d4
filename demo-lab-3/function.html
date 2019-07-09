@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> lab 4 demo</title>
+</head>  
+<body> 
+  <p><h1>OPEN CONSOLE TO SEE THE MAGIC</h1>
+  </p>
+  
+
+<script >
+//Functions should do one thing such as modify or answer something like a query
+//but not both.
+
+// DO use verbs in your function name
+function inviteUser (emailAddress) { /* implementation */ }
+/*Do declare local variables and try not to use global variables. You want your
+function to depend on local values and not outside values
+*/
+function sayHello(){
+  return console.log("Hello World");
+  //return is used to stop the execution of a function and return a value back.
+}
+
+sayHello(); //Call the function to see the magic
+
+// FUNCTION WITH PARAMETERS
+function toSum(num1, num2){
+  return num1 + num2;
+}
+console.log(toSum(20000, 200)) //Call a function with arguments and the arguments replace the params
+
+//FUNCTION WITHOUT ALL ARGUMENTS
+function toSum(num1, num2, num3){
+  return num1 + num2 + num3;
+}
+console.log(toSum(25, 30));
+// Function with too many arguments
+console.log(toSum(20, 35, 66, 700)+ " too many arguments");
+//the function call will ignore the additional arguments
+
+//Anonymous Function Expression
+var favMovie = function(){
+  return  console.log("Captain Marvel");
+}
+console.log(favMovie());
+/*
+var favMovie = function movie(){
+  return "Captain Marvel";
+}
+movie(); breaks the code because you have to use the variable name assigned to the function expression
+*/
+
+//Return
+//use to stop execution of a function and return as value back to the calller
+//console.log is not a return statements
+
+function isPrime(integer) {
+  for (var x = 2; x < integer; x++) {
+    if (integer % x === 0) {
+      console.log(integer + " is divisible by " + x);
+      return false;
+    }
+  }
+  return true;
+}
+  </script>
+ </body>
+ </html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> function demo</title>
+</head>  
+<body> 
+  <p><h1>OPEN CONSOLE TO SEE THE MAGIC</h1>
+  </p>
+  <p>This walk-through-lab-3</p>
+<p>- Expect that you will probably need both 'for' and 'while' structures for your sixth and seventh questions. But not necessarily.</p>
+
+<script>
+  /* Depending on the level of understanding (and frustration) during lab 3, it may be helpful to walk through an example approach to */
+
+
+  /*- As a developer, I want to add a sixth question to my guessing game that takes NUMERIC INPUT  by prompting a user to guess a number (for instance, "What is my favorite number?" or "How many Pokémon did I catch this week?"), and indicates to the user whether the guess is "too high" or "too low", and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
+- As a developer, I want to add a seventh question to my guessing game that has multiple possible correct answers that are stored in an array (for instance, "Can you guess a state that I have lived in besides Washington?"), so that even more of my programming skills are showcased. For now, I will structure this question so that the user has six tries to get a single correct answer, and upon using up those tries OR getting a correct answer, displays a messcaughtPokemon to the user indicating all of the possible correct answers.
+- As a developer, I want to keep a tally of the total number of correct answers given by the user, and at the end of the game, tell the user how well they did with a personalized custom messcaughtPokemon that includes the number of correct answers and also addresses the user by name, e.g. "You got 4 out of 7 questions correct, Bobbi! Better luck next time." */
+var correct = 5;
+var answer = prompt('How many pokemon did Laura catch this weekend?');
+
+//Change the value from a string datatype to a number datatype
+sanitizedAnswer = parseInt(answer);
+console.log(sanitizedAnswer);
+
+// Do this instead for checking regardless of case
+ if (sanitizedAnswer === 5) {
+  console.log(' Yasssss Laura caught ' + sanitizedAnswer);
+  correct = correct + 10;
+  console.log( "You earned 10 points" + correct)
+}
+else if(sanitizedAnswer > 5) {
+  console.log('Laura didn\'t catch that many!');
+  correct = correct - 2;
+  console.log( "Wrong minus 2 pts " + correct)
+}
+else if(sanitizedAnswer < 5) {
+  console.log('Laura caught more than that number.');
+  correct = correct -2;
+  console.log( "Wrong! Minus 2 pts " + correct)
+}
+
+for ( var i=0; i<=6; i++) {
+  var input1;
+  console.log(input1);
+  
+  input1 = prompt("name one month");
+  console.log('Is input1 null?', input1 === null);
+  console.log('typeof input1', typeof input1);
+  console.log(input1);
+
+  if ( input1 ) {
+    console.log ("correct");
+    break;
+  }
+
+  console.log ("Try again");
+}
+
+
+// //Question 7
+// var userCorrect = false;
+
+// var pokemon = ['pikachu', 'zubat', 'drowzee', 'onyx', 'charmander', 'snorlax'];
+
+// var guesses = 0;
+
+// while (guesses < 7) {
+//   var pokeAnswer = prompt('What Pokemon has Lee caught this week on PokemonGO?').toLowerCase();
+//   for (var i = 0; i < pokemon.length; i++) {
+//     if (pokeAnswer === pokemon[i]) {
+//       alert('You caught the right answer! Nice work! The ones he caught this week are: ' + pokemon);
+//       console.log('User response is ' + pokeAnswer + ' to question 6');
+//       guesses = 7;
+//       correctAnswers++;
+//       userCorrect = true;
+//       break;
+//     }
+//   }
+//   if (guesses !== 7) {
+//     alert('Not that one. You\'re not the very best, but try again!');
+//     console.log('User response is ' + pokeAnswer + ' to question 6');
+//   }
+//   guesses++;
+// }
+// if (userCorrect === false) {
+//   alert('Uh-Oh! You did not get any right. The Pokemon that Lee caught this week are: ' + pokemon);
+//   console.log('User response is ' + pokeAnswer + ' to question 6');
+// }
+
+// alert(userName + ', you scored a total of ' + correctAnswers + ' out of 7')
+// console.log(userName + 'scored a total of ' + correctAnswers + ' out of 7')
+
+
+
+
+</script>
+ </body>
+ </html>
