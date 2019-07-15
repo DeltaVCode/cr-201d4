@@ -10,6 +10,7 @@ You will also simultaneously be working with more specific style and design conc
 
 Before writing a single line of code, be sure that you have a new repository (with a README!) called cookie-stand, and do your work in that directory. Each day you'll be working in separate branches. Once the repo is initialized and set up today, switch to a new branch for your work. Branch names can be whatever you want; it is suggested that you use some sort of standard organization such as `day-feature` for the branch name, such as `tue-models`. **Remember that there is a guide to setting up repos for this course in the Day 2 directory.***
 
+
 Refer to the "Setting up a new project" document in the Class 2 directory of the class repository to do the intital file/directory configuration of this project.
 
 ## User Stories and Feature Tasks
