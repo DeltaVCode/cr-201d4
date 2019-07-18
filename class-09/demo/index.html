@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS Layout Demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <h1>A Sample Blog</h1>
         <h2>Creating a blog layout using pure</h2>
         <nav>
@@ -26,36 +27,81 @@
         <article>
             <header>
                 <p class="masthead">Pinned Post</p>
-                <h2>Introducing Pure</h2>
-                <p class="byline">
-                    By
-                    <a href="#">Tilo Mitra</a>
-                    under
-                    <span>CSS</span>
-                    <span>Pure</span>
-                </p>
-                <img src="https://avatars.servers.getgo.com/2205256774854474505_medium.jpg" />
+                <div class="left-side">
+                    <h2>Introducing Pure</h2>
+                    <p class="byline">
+                        By
+                        <a href="#">Tilo Mitra</a>
+                        under
+                        <span class="label green">CSS</span>
+                        <span class="label blue">Pure</span>
+                    </p>
+                </div>
+                <div class="user-image" style="background-image: url('https://blog.ipleaders.in/wp-content/uploads/2016/12/Indian-Cyber-Law-Fake-profi.jpg')"></div>
+                <div class="clearfix"></div>
             </header>
-            <p>
+            <p class="body-copy">
                 Are creatures of the cosmos tesseract a still more glorious dawn awaits quasar rings of Uranus tendrils of gossamer clouds. Globular star cluster globular star cluster hydrogen atoms hundreds of thousands gathered by gravity hearts of the stars. A very small stage in a vast cosmic arena how far away permanence of the stars the sky calls to us with pretty stories for which there's little good evidence preserve and cherish that pale blue dot and billions upon billions upon billions upon billions upon billions upon billions upon billions.
             </p>
         </article>
         <article>
             <header>
                 <p class="masthead">Recent Posts</p>
-                <h2>Everything you need to know about grunt</h2>
-                <p class="byline">
-                    By
-                    <a href="#">Eric Ferraiuolo</a>
-                    under
-                    <span>JavaScript</span>
-                </p>
-                <img src="https://avatars.servers.getgo.com/2205256774854474505_medium.jpg" />
+                <div class="left-side">
+                    <h2>Everything you need to know about grunt</h2>
+                    <p class="byline">
+                        By
+                        <a href="#">Eric Ferraiuolo</a>
+                        under
+                        <span class="label red">JavaScript</span>
+                    </p>
+                </div>
+                <img src="https://blog.ipleaders.in/wp-content/uploads/2016/12/Indian-Cyber-Law-Fake-profi.jpg" />
+                <div class="clearfix"></div>
             </header>
-            <p>
+            <p class="body-copy">
                 Are creatures of the cosmos tesseract a still more glorious dawn awaits quasar rings of Uranus tendrils of gossamer clouds. Globular star cluster globular star cluster hydrogen atoms hundreds of thousands gathered by gravity hearts of the stars. A very small stage in a vast cosmic arena how far away permanence of the stars the sky calls to us with pretty stories for which there's little good evidence preserve and cherish that pale blue dot and billions upon billions upon billions upon billions upon billions upon billions upon billions.
             </p>        
         </article>
+        <article>
+                <header>
+                    <p class="masthead">Recent Posts</p>
+                    <div class="left-side">
+                        <h2>Everything you need to know about grunt</h2>
+                        <p class="byline">
+                            By
+                            <a href="#">Eric Ferraiuolo</a>
+                            under
+                            <span class="label red">JavaScript</span>
+                        </p>
+                    </div>
+                    <img src="https://blog.ipleaders.in/wp-content/uploads/2016/12/Indian-Cyber-Law-Fake-profi.jpg" />
+                    <div class="clearfix"></div>
+                </header>
+                <p class="body-copy">
+                    Are creatures of the cosmos tesseract a still more glorious dawn awaits quasar rings of Uranus tendrils of gossamer clouds. Globular star cluster globular star cluster hydrogen atoms hundreds of thousands gathered by gravity hearts of the stars. A very small stage in a vast cosmic arena how far away permanence of the stars the sky calls to us with pretty stories for which there's little good evidence preserve and cherish that pale blue dot and billions upon billions upon billions upon billions upon billions upon billions upon billions.
+                </p>        
+            </article>
+            <article>
+                    <header>
+                        <p class="masthead">Recent Posts</p>
+                        <div class="left-side">
+                            <h2>Everything you need to know about grunt</h2>
+                            <p class="byline">
+                                By
+                                <a href="#">Eric Ferraiuolo</a>
+                                under
+                                <span class="label red">JavaScript</span>
+                            </p>
+                        </div>
+                        <img src="https://blog.ipleaders.in/wp-content/uploads/2016/12/Indian-Cyber-Law-Fake-profi.jpg" />
+                        <div class="clearfix"></div>
+                    </header>
+                    <p class="body-copy">
+                        Are creatures of the cosmos tesseract a still more glorious dawn awaits quasar rings of Uranus tendrils of gossamer clouds. Globular star cluster globular star cluster hydrogen atoms hundreds of thousands gathered by gravity hearts of the stars. A very small stage in a vast cosmic arena how far away permanence of the stars the sky calls to us with pretty stories for which there's little good evidence preserve and cherish that pale blue dot and billions upon billions upon billions upon billions upon billions upon billions upon billions.
+                    </p>        
+                </article>
     </section>
+    <div class="clearfix"></div>
 </body>
 </html>
