@@ -1,14 +1,15 @@
 # Class 15: Code 301 Preview and Project Week Kickoff
 
 <a id="top"></a>
+## Lecture 15
 
 ## Today's Schedule
 - Announcements
   - Reminder: weekly surveys will go out today
 - Discuss upcoming Career Coaching assignments
-- Code Review 
-- [301 Preview](#301) 
-- [Final Project Overview](#project) 
+- Code Review *[60 minutes]*
+- [301 Preview](#301) *[30 minutes]*
+- [Final Project Overview](#project) *[60 minutes]*
 
 **Learning Objectives**
 

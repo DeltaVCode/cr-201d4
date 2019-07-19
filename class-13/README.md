@@ -1,12 +1,13 @@
 # Class 13: Local Storage and UI/UX Concepts
 
 <a id="top"></a>
+## Lecture 13
 
 ## Today's Schedule
 - Announcements
-- Code Review 
-- [Go over the assigned readings](#readings) 
-- Code demo 
+- Code Review *[30 minutes]*
+- [Go over the assigned readings](#readings) *[60 minutes]*
+- Code demo *[90 minutes]*
 
 **Learning Objectives**
 

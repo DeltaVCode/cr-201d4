@@ -1,13 +1,14 @@
 # Class 14: Advanced JS Topics and CSS Animations
 
 <a id="top"></a>
+## Lecture 14
 
 ## Today's Schedule
 - Announcements
-- Code Review 
-- [Go over the assigned readings](#readings) 
-- [Advanced JS topics](#advanced) 
-- Code demo 
+- Code Review *[30 minutes]*
+- [Go over the assigned readings](#readings) *[30 minutes]*
+- [Advanced JS topics](#advanced) *[30 minutes]*
+- Code demo *[60 minutes]*
 
 **Learning Objectives**
 

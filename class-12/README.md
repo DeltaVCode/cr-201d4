@@ -1,12 +1,13 @@
 # Class 12: Adding Charts to the Vote Tracker App
 
 <a id="top"></a>
+## Lecture 12
 
 ## Today's Schedule
 - Announcements
-- Code Review 
-- [Go over the assigned readings](#readings) 
-- Code demo 
+- Code Review *[60 minutes]*
+- [Go over the assigned readings](#readings) *[60 minutes]*
+- Code demo *[90 minutes]*
 
 **Learning Objectives**
 

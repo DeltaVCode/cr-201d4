@@ -1,15 +1,16 @@
 # Class 11: A/V, Practical Info, and Getting the Vote Tracker Started
 
 <a id="top"></a>
+## Lecture 11
 
 ## Today's Schedule
 - Announcements
   - Project Week is getting closer! Pitch your project idea in the Canvas assignment.
   - Review feedback from week 2 surveys
 - Discuss upcoming Career Coaching assignments
-- Code Review 
-- [Go over the assigned readings](#readings) 
-- Code demo 
+- Code Review *[30 minutes]*
+- [Go over the assigned readings](#readings) *[60 minutes]*
+- Code demo *[90 minutes]*
 
 **Learning Objectives**
 
