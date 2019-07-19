@@ -1,14 +1,15 @@
 # Class 10: JS Debugging and More CSS Layout
 
 <a id="top"></a>
+## Lecture 10
 
 ## Today's Schedule
 - Announcements
   - Reminder: weekly surveys will go out today.
   - Project Week starts a week from today! Let's look over some samples of projects from recent offerings of this class.
-- Code Review 
-- [Go over the assigned readings](#readings) 
-- Code demo 
+- Code Review *[90 minutes]*
+- [Go over the assigned readings](#readings) *[60 minutes]*
+- Code demo *[30 minutes]*
 
 **Learning Objectives**
 
