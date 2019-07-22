@@ -12,9 +12,6 @@ function Product(name){
   allProducts.push(this);
 };
 
-Product.prototype.render = function(){
-
-}
 function createProducts() {
   for(var i = 0; i < productNames.length; i++){
     new Product(productNames[i]);
@@ -29,6 +26,7 @@ function randomProduct(){
 function render() {
   var productsSection = document.getElementById('products');
   productsSection.innerHTML = '';
+
 
   var randomProducts = [];
   randomProducts.push(randomProduct());
